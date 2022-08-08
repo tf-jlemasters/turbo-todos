@@ -4,6 +4,7 @@ class TodosController < ApplicationController
   # GET /todos or /todos.json
   def index
     @todos = Todo.in_order_of(:status, %w[incomplete complete])
+    session[:cookie_accepted] = nil
   end
 
   # GET /todos/1 or /todos/1.json

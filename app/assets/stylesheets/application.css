@@ -14,7 +14,7 @@
  *= require_self
  */
 
- .cookies_modal {
+.cookies_modal {
     position: absolute;
     left: 0.5rem:
     bottom: 0.5rem;
@@ -25,4 +25,4 @@
     border-radius: 0.5rem;
     min-width: 50%;
     max-width: 24rem;
- }
+}
